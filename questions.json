@@ -1,0 +1,79 @@
+{
+    "questions": [
+      {
+        "question": "What is the result of 2 + 2 in JavaScript?",
+        "answers": ["3", "4", "5", "6"],
+        "correctAnswer": "4"
+      },
+      {
+        "question": "What is the purpose of the 'typeof' operator in JavaScript?",
+        "answers": ["Checking if a variable is defined", "Checking the type of an object", "Comparing two values", "Converting a string to a number"],
+        "correctAnswer": "Checking the type of an object"
+      },
+      {
+        "question": "What is a JavaScript closure?",
+        "answers": ["A way to define private methods in JavaScript", "A data structure in JavaScript", "A way to hide variables in JavaScript", "A function that has access to its outer function's variables"],
+        "correctAnswer": "A function that has access to its outer function's variables"
+      },
+      {
+        "question": "Which keyword is used to declare a variable in JavaScript?",
+        "answers": ["var", "variable", "v", "let"],
+        "correctAnswer": "var"
+      },
+      {
+        "question": "What does 'DOM' stand for in the context of web development?",
+        "answers": ["Data Object Model", "Document Object Model", "Display Order Manager", "Dynamic Ordinal Mapping"],
+        "correctAnswer": "Document Object Model"
+      },
+      {
+        "question": "What does PHP stand for?",
+        "answers": ["Personal Hypertext Processor", "Preprocessed Hypertext Pages", "PHP: Hypertext Preprocessor", "Programming Hyperlink Processor"],
+        "correctAnswer": "PHP: Hypertext Preprocessor"
+      },
+      {
+        "question": "Which keyword is used to declare a variable in PHP ?",
+        "answers": ["$", "#", "const", "$_"],
+        "correctAnswer": "$"
+      },
+      {
+        "question": "Which PHP superglobal is used to retrieve form data after submitting an HTML form?",
+        "answers": ["$_GET", "$_POST", "$_REQUEST", "$_DATA"],
+        "correctAnswer": "$_POST"
+      },
+      {
+        "question": "What does the acronym 'SQL' stand for?",
+        "answers": ["Simple Query Language", "Structured Query Language", "Server Quality Language", "Standard Query Language"],
+        "correctAnswer": "Structured Query Language"
+      },
+      {
+        "question": "In PHP, how do you create a new instance of a class?",
+        "answers": ["new_instance(Class)", "create Class", "Class.new()", "new Class()"],
+        "correctAnswer": "new Class()"
+      },
+      {
+        "question": "What is Java SE used for?",
+        "answers": ["Server-side scripting", "Mobile app development", "Enterprise software", "Building websites"],
+        "correctAnswer": "Enterprise software"
+      },
+      {
+        "question": "Which Java keyword is used to explicitly refer to the superclass of a subclass?",
+        "answers": ["superclass", "base", "super", "parent"],
+        "correctAnswer": "super"
+      },
+      {
+        "question": "What is the syntax to define an interface in Java?",
+        "answers": ["interface MyInterface { }", "new Interface MyInterface { }", "interface MyInterface;", "interface = MyInterface { }"],
+        "correctAnswer": "interface MyInterface { }"
+      },
+      {
+        "question": "In Java, which access modifier is the most restrictive?",
+        "answers": ["public", "protected", "default", "private"],
+        "correctAnswer": "private"
+      },
+      {
+        "question": "In Java, how to handle Exceptions and errors ?",
+        "answers": ["try-handle", "throw new", "try-catch", "2 and 3 true"],
+        "correctAnswer": "2 and 3 true"
+      }       
+    ]
+}

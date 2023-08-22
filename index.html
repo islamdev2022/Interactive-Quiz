@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="all">
+        <div class="container">
+            <h1>Test Your Knowledge ! </h1>
+            <p id="chose"><b>Choose Your Category</b> </p>
+            <ul id="category">
+                <li class="category" id="js">JavaScript</li>
+                <li class="category" id="php">PHP</li>
+                <li class="category" id="java">Java</li>
+            </ul>
+            <div id="QA">
+                <h3 id="question"></h3>
+                <ul id="answers"></ul>
+            </div>
+            <p id="sc">Your Score is <span id="score"></span>/5</p>
+            <p id="feedback">You did <span id="per"></span> ! <span id="phrase"></span></p>
+            <button id="next">Next</button>
+        </div>
+    </div>
+</body>
+</html>

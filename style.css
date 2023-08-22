@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: rgb(40, 38, 70);
+}
+.all{
+    background-color:white;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 30px;
+    box-shadow: rgb(148, 148, 148) 0px 0px 40px ;
+}
+.container{
+    padding: 20px;
+    width: 600px;    
+}
+#category{
+    display: flex;
+    gap: 20px;
+    list-style-type:none;  
+}
+.category{
+    background-color: rgb(170, 176, 214);
+    padding: 3px;
+    border-radius: 5px;
+    position: relative;
+    right: 40px;
+    cursor: pointer;
+}
+button{
+    padding: 7px;
+    width: 80px;
+    display: table;
+    margin-right: auto;
+    margin-left: auto;
+    display: none;
+    background-color: rgb(86, 84, 125);
+    border-radius: 20px;
+    cursor: pointer;
+}
+#answers li{
+    list-style: none;
+    background-color: #ffffff;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 35px;
+    width: 105%;
+    height: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+#answers li:hover{
+    background-color: #b9b9b9;
+}
+#QA,#sc,#feedback{
+    display: none;
+}
+@media (max-width:700px) {
+    .container{
+        width: 350px;
+    }
+}
+@media (max-width:405px) {
+    .container{
+        width: 310px;
+    }
+}
